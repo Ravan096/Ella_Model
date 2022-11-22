@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./Ella_background2.jpg);
+    background-size: cover;
+    height: 110vh;
+}
+header{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+
+}
+.logobox{
+    display: inline-block;
+    width: 150px;
+    font-size:30px;
+}
+.navbox{
+    display: inline-block;
+    position: absolute;
+    right: 70px;
+}
+.navbox>a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+#homie{
+    color: salmon;
+}
+.navbox>a:hover{
+    color: salmon;
+    transition: all 0.5s;
+}
+.heading{
+    color:salmon;
+    width: 300px;
+    position: relative;
+    top: 80px;
+    left: 1150px;
+    font-family: "Roboto";
+    font-size: 100px;
+}
+.heading+h3{
+    color: white;
+    position: relative;
+    width: 300px;
+    top: 15px;
+    left: 1200px;
+    font-family: "Roboto";
+    font-size: 40px;
+}
+.heading+h3+p{
+    color: rgb(236, 216, 216);
+    position: relative;
+    width: 400px;
+    top: 30px;
+    left: 1150px;
+    font-family: "Roboto";
+    font-style: italic;
+    font-size: 20px;
+    word-spacing: 4px;
+}
+.btn{
+    position: relative;
+    top: 40px;
+    left: 1150px;
+    font-family: "Roboto";
+    padding: 15px 20px;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: salmon;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(250, 128, 114, 0);
+    color: white;
+    transition: all 0.5s;
+}
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
